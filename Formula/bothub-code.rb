@@ -4,28 +4,28 @@
 class BothubCode < Formula
   desc "BotHub Code - the AI coding agent on BotHub models"
   homepage "https://bothub.chat"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   depends_on "ripgrep"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bothubcode/Code/releases/download/v1.0.0/bothub-code-darwin-arm64.tar.gz"
-      sha256 "1a8b66d25bd00307bf9fde2d111afc4ed12350092622634e67e20aa7c54abbad"
+      url "https://github.com/bothubcode/Code/releases/download/v1.0.1/bothub-code-darwin-arm64.tar.gz"
+      sha256 "77b20e8337bdedd2512d2923dac1db1ede84a9f8d1c76ee5b52a5fb3843edbfc"
     else
-      url "https://github.com/bothubcode/Code/releases/download/v1.0.0/bothub-code-darwin-x64-baseline.tar.gz"
-      sha256 "a118c482a6d44f60ddae5c61211b4b0238ea9a2d1e8f998d3a0123384b681a1f"
+      url "https://github.com/bothubcode/Code/releases/download/v1.0.1/bothub-code-darwin-x64-baseline.tar.gz"
+      sha256 "be31003487fdab389957da265ddcfef307bb1a27be01056fd6cf3477ceae0a24"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bothubcode/Code/releases/download/v1.0.0/bothub-code-linux-arm64.tar.gz"
-      sha256 "f1fb1af7c0b873f0d6341784019a5208a3763394d8aecab40484f3fe01c5c4eb"
+      url "https://github.com/bothubcode/Code/releases/download/v1.0.1/bothub-code-linux-arm64.tar.gz"
+      sha256 "78d80169b8ee493df6cd83f0ba13ab654315ea5a3030c8d955595827dbe06656"
     else
-      url "https://github.com/bothubcode/Code/releases/download/v1.0.0/bothub-code-linux-x64-baseline.tar.gz"
-      sha256 "898e93e197c0fe97da3c96b121c1d8f3290afda76c2bb5de9068639a31326aa9"
+      url "https://github.com/bothubcode/Code/releases/download/v1.0.1/bothub-code-linux-x64-baseline.tar.gz"
+      sha256 "87aea433939b0dffc9e871f2d917bb37b0e3702b13d38fbfe829040e9d099fe5"
     end
   end
 
